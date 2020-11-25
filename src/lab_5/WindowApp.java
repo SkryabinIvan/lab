@@ -45,6 +45,8 @@ public class WindowApp extends JFrame {
         buttonPanel.add(button2);
         JButton button3 = new JButton("Умножение матриц");
         buttonPanel.add(button3);
+        JButton button4 = new JButton("Выход");
+        buttonPanel.add(button4);
         button1.addActionListener(new java.awt.event.ActionListener()
         {
             public void actionPerformed(ActionEvent e) {
